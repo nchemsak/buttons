@@ -1,0 +1,63 @@
+@import 'clean-btn';
+@import 'hand-drawn';
+@import 'glass-btn';
+
+html {
+    *,
+    *:before,
+    *:after {
+        -webkit-transition: 0.5s ease-in-out;
+        transition: 0.5s ease-in-out;
+    }
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.btn-effect {
+    border-radius: 20px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    color: #01a4d8;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    max-width: 150px;
+    text-transform: uppercase;
+    border: 1px solid #01a4d8; //
+    //span below is the effect on hover
+    span.js-btn {
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        border-radius: 50%;
+        background-color: #01a4d8;
+        -webkit-transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+
+    &:hover {
+        color: tint(#01a4d8, 75%);
+        span {
+            width: 225%;
+            height: 562.5px;
+        }
+    }
+}
+
+
+
+
+
+
