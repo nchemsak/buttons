@@ -31,7 +31,6 @@
     border-style: solid;
 }
 
-
 // nav light
 .nav-light {
     background-color: white;
@@ -66,7 +65,6 @@
     }
 }
 
-
 .nav-light .btn-glass.btn-success {
     color: #a5c75f;
     background-color: rgba(127, 175, 27, 0);
@@ -81,7 +79,6 @@
         box-shadow: 0 0 1em 0.5ex rgba(127, 175, 27, 0.5);
     }
 }
-
 
 .nav-light .btn-glass.btn-warning {
     color: #fccd69;
@@ -98,7 +95,6 @@
     }
 }
 
-
 .nav-light .btn-glass.btn-danger {
     color: #f56558;
     background-color: rgba(240, 35, 17, 0);
@@ -114,8 +110,6 @@
     }
 }
 
-
-
 .nav-light .btn-glass.btn-info {
     color: #98e9f0;
     background-color: rgba(108, 223, 234, 0);
@@ -130,7 +124,6 @@
         box-shadow: 0 0 1em 0.5ex rgba(108, 223, 234, 0.5);
     }
 }
-
 
 // nav dark
 .nav-dark {
@@ -151,7 +144,6 @@
     }
 }
 
-
 .nav-dark .btn-glass.btn-primary {
     color: rgba(255, 255, 255, 0.7);
     background-color: rgba(42, 143, 189, 0);
@@ -165,8 +157,6 @@
         box-shadow: 0 0 1em 0.5ex rgba(42, 143, 189, 0.5);
     }
 }
-
-
 
 .nav-dark .btn-glass.btn-success {
     color: rgba(255, 255, 255, 0.7);
@@ -182,8 +172,6 @@
     }
 }
 
-
-
 .nav-dark .btn-glass.btn-warning {
     color: rgba(255, 255, 255, 0.7);
     background-color: rgba(251, 184, 41, 0);
@@ -197,8 +185,6 @@
         box-shadow: 0 0 1em 0.5ex rgba(251, 184, 41, 0.5);
     }
 }
-
-
 
 .nav-dark .btn-glass.btn-danger {
     color: rgba(255, 255, 255, 0.7);
@@ -214,8 +200,6 @@
     }
 }
 
-
-
 .nav-dark .btn-glass.btn-info {
     color: rgba(255, 255, 255, 0.7);
     background-color: rgba(108, 223, 234, 0);
@@ -230,8 +214,6 @@
     }
 }
 
-
-
 nav.btn-bar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -241,22 +223,6 @@ nav.btn-bar {
     justify-content: flex-end;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-}
-
-:root {
-    font-family: 'Open Sans', sans;
-    font-size: 11pt;
-    line-height: 1.6;
-    min-height: 100vh;
-    background-attachment: fixed, scroll;
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/49914/grit-fs8.png), -webkit-radial-gradient(ellipse farthest-corner, #555, #999);
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/49914/grit-fs8.png), radial-gradient(ellipse farthest-corner, #555, #999);
-}
-
-body {
-    width: 75vw;
-    margin: 4em auto;
-    line-height: inherit;
 }
 
 article {

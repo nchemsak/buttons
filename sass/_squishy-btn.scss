@@ -1,0 +1,36 @@
+button.squishy-btn {
+    font-size: 2em;
+    color: white;
+    display: block;
+    margin: 2em auto;
+    height: 100px;
+    background: cornflowerblue;
+    border: none;
+    position: relative;
+    width: 240px;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    box-shadow: 0 0 .25em #333;
+    cursor: pointer;
+    outline: none;
+}
+
+button.squishy-btn:active {
+    -webkit-transform: scale(1.2, 0.8);
+}
+
+button.squishy-btn:active::before {
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-radius: .2em;
+    top: -10px;
+    border-left-color: cornflowerblue;
+}
+
+button.squishy-btn:active::after {
+    border-top-width: 10px;
+    border-bottom-width: 10px;
+    border-radius: .2em;
+    top: -10px;
+    border-right-color: cornflowerblue;
+}

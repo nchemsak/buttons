@@ -1,28 +1,6 @@
-// @import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
-// @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
-
-
-
-html, body {
-  height: 100vh;
-}
-
-body {
-  background: #eee;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 .buttons {
-  $w: 500px;
-  $h: 260px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: $w;
-  height: $h;
-  margin-top: -($h/2);
-  margin-left: -($w/2);
+  width: 500px;
   text-align: center;
 }
 
@@ -98,3 +76,5 @@ body {
 .set.green .btn.pri.ico:before { content: '\f00c' }
 .set.red .btn.pri.ico:before { content: '\f014' }
 .set.black .btn.pri.ico:before { content: '\f0c4' }
+
+

@@ -1,14 +1,35 @@
 @import 'clean-btn';
 @import 'hand-drawn';
 @import 'glass-btn';
+@import 'squishy-btn';
 
 html {
+    height: 100vh;
     *,
     *:before,
     *:after {
         -webkit-transition: 0.5s ease-in-out;
         transition: 0.5s ease-in-out;
     }
+}
+
+body {
+    width: 75vw;
+    height: 100vh;
+    margin: 4em auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+:root {
+    font-family: 'Open Sans', sans;
+    font-size: 11pt;
+    line-height: 1.6;
+    min-height: 100vh;
+    background-attachment: fixed, scroll;
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/49914/grit-fs8.png), -webkit-radial-gradient(ellipse farthest-corner, #555, #999);
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/49914/grit-fs8.png), radial-gradient(ellipse farthest-corner, #555, #999);
 }
 
 a {
@@ -55,9 +76,3 @@ a {
         }
     }
 }
-
-
-
-
-
-

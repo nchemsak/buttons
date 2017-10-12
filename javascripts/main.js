@@ -21,3 +21,6 @@ $(function() {
             });
         });
 });
+
+// squishy button
+document.addEventListener("touchstart", function() {},false); // add this junk to make iOS observe the :active state for touch
