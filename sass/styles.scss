@@ -2,9 +2,10 @@
 @import 'hand-drawn';
 @import 'glass-btn';
 @import 'squishy-btn';
+@import 'clean-btn2';
 
 html {
-    height: 100vh;
+    height: 200vh;
     *,
     *:before,
     *:after {
@@ -14,8 +15,9 @@ html {
 }
 
 body {
+    padding: 50px;
     width: 75vw;
-    height: 100vh;
+    height: 200vh;
     margin: 4em auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
