@@ -5,10 +5,10 @@
 * $ grunt - to compile SCSS files
 
 ## Clean1
-!(/images/clean1.JPG)
+![Small Screen](/images/clean1.JPG)
 
 ## Clean2
-(/images/clean2.JPG)
+![Small Screen](/images/clean2.JPG)
 
 ## Glass
 ![Small Screen](/images/glass.JPG)
